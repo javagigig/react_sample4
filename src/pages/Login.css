@@ -1,0 +1,20 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=SF+Pro+Text:wght@400;500&display=swap');
+
+body {
+    font-family: 'SF Pro Text', sans-serif; /* 아이폰 글꼴 */
+    background-color: #fff; /* 배경색 하얀색으로 설정 */
+    color: #333; /* 기본 텍스트 색상 설정 */
+    margin: 0; /* 기본 마진 제거 */
+    padding: 0; /* 기본 패딩 제거 */
+}
+
+.loginBox{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #ccc;
+}
+.navSide{
+    width: 50%;
+    height: 100%;
+}

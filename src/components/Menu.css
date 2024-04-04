@@ -1,0 +1,123 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=SF+Pro+Text:wght@400;500&display=swap');
+
+body {
+    font-family: 'SF Pro Text', sans-serif; /* 아이폰 글꼴 */
+    background-color: #fff; /* 배경색 하얀색으로 설정 */
+    color: #333; /* 기본 텍스트 색상 설정 */
+    margin: 0; /* 기본 마진 제거 */
+    padding: 0; /* 기본 패딩 제거 */
+}
+
+.container {
+    max-width: 800px; /* 컨테이너 너비 확장 */
+    max-height: 1500px;
+    margin-bottom: 30px;
+    margin: 20px auto; /* 세로 가운데 정렬 및 margin 조정 */
+    padding: 0 20px; /* 가로 여백 추가 */
+    float: left;
+}
+   
+
+  /* 좌측 사이드 바 */
+  .sidebar {
+    height: 100vh; /* 뷰포트 높이에 맞게 설정 */
+    padding: 20px; /* 내부 패딩 설정 */
+    box-sizing: border-box; /* 패딩을 요소의 크기에 포함 */
+    flex-direction: column; /* 세로 방향으로 정렬 */
+    justify-content: space-between; /* 위아래 여백을 동일하게 분배 */
+}
+
+nav{
+  position: fixed;
+  width: 15%;
+  height: 100%;
+  overflow-y: auto;
+  text-align: left;
+}
+
+  /* 좌측 사이드 바 아이콘 */
+  .sidebar-icons {
+    margin-bottom: 20px; /* 하단 마진 설정 */
+  }
+
+.menu {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color:white;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+/* 홈-게시물박스-첫줄 글씨 */
+.menu-title {
+  margin: 15px;
+  font-size: 24px;
+  color: #333;
+  padding: 20px;
+}
+
+.menu-content {
+  margin-top: 10px;
+  color: #666;
+}
+
+.container {
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    display: flex;
+    border-left: 5px solid #ccc; /* 왼쪽에 선 추가 */
+    flex-direction: row-reverse; /* 오른쪽에서 왼쪽으로 정렬 */
+}
+
+.img-box {
+  width: 120px;
+  height: 120px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI4r5UzwI35G1Ccoa5bVvZCijqqsrtAr7bYQ&s);
+  background-size: cover;
+}
+
+h2, h5 {
+  display: left;
+}
+
+.imgBoxProfile {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: flex;
+}
+
+.box1 {
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-eHvTFniGUMP7aHA8jMbVWyRxaBUtU3YLDQ&s) no-repeat;
+  background-size: cover;
+}
+
+.box2 {
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwmWPk_NQ3RFWi8PEK1QO5k3KO-RG7lVBXxQ&s) no-repeat;
+  background-size: cover;
+}
+
+.box3 {
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJriUXbEXktRkcKebuuI2JzpAa-LnS_3iZDQ&s) no-repeat;
+  background-size: cover;
+}
+
+.box4 {
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQG0I0G4aYjoFxQJ-qfoXq0zforLORwTHavg&s) no-repeat;
+  background-size: cover;
+}
+
+ul, li, Link {
+  list-style: none;
+  text-decoration: none;
+}

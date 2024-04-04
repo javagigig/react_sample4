@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+ul, li, Link {
+  list-style: none;
+  text-decoration: none;
+  font-size: 25px;
+}
