@@ -15,7 +15,7 @@ function Navbar(){
                     <li><Link to="/"><VscHome /></Link></li>
                     <li><Link to="/"><VscAccount /></Link></li>
                     <li><Link to="/login"><CgLogIn /></Link></li>
-                    <li><Link to="/profile"><VscSearch /></Link></li>
+                    <li><Link to="/search"><VscSearch /></Link></li>
                     <li><Link to="/profile"><VscHeart /></Link></li>
                     <li><Link to="/postAdd"><VscDiffAdded /></Link></li>
                     <li><Link to="/profile">로그아웃</Link></li>

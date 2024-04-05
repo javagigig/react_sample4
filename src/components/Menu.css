@@ -30,16 +30,17 @@ body {
 
 nav{
   position: fixed;
+
   width: 15%;
   height: 100%;
   overflow-y: auto;
   text-align: left;
 }
 
-  /* 좌측 사이드 바 아이콘 */
-  .sidebar-icons {
-    margin-bottom: 20px; /* 하단 마진 설정 */
-  }
+/* 좌측 사이드 바 아이콘 */
+.sidebar-icons {
+   margin-bottom: 20px; /* 하단 마진 설정 */
+ }
 
 .menu {
   width: 300px;

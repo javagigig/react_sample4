@@ -1,0 +1,39 @@
+/* 모달 전체를 가리키는 클래스 */
+.modal {
+    display: none; /* 초기에는 보이지 않도록 설정 */
+    position: fixed; /* 화면에 고정시킵니다. */
+    left: 0;
+    top: 0;
+    width: 250px; /* 모달의 너비 */
+    height: 100%; /* 모달의 높이 */
+    background-color: rgba(0, 0, 0, 0.5); /* 배경색 및 투명도 조절 */
+    overflow-x: hidden;
+    padding-top: 60px; /* 모달의 위쪽 여백 */
+    z-index: 999; /* 다른 요소 위에 보이도록 설정 */
+  }
+  
+  /* 모달 내용을 가리키는 클래스 */
+  .modal-content {
+    background-color: #fefefe;
+    margin-left: auto; /* 왼쪽으로 붙임 */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* 모달 내용의 너비 */
+    height: 100%; /* 모달 내용의 높이 */
+  }
+  
+  /* 닫기 버튼 스타일 */
+  .close {
+    color: #aaa;
+    float: right; /* 우측으로 이동 */
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  

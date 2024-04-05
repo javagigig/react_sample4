@@ -10,11 +10,63 @@ body {
 }
 
 .loginBox{
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
+    padding: 100px;
     border: 1px solid #ccc;
+    border-radius: 4px;;
 }
 .navSide{
-    width: 50%;
-    height: 100%;
+    padding: 300px;
+    width: 500px;
+    height: 500px;
+}
+span{
+    color: #535252;
+    margin-left: 8px;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    color: #333;
+}
+.btn{
+    margin-left: 50px;
+    margin-top: none;
+    color:  rgb(119, 6, 134);
+    font-weight: bold;
+}
+.btnLogin{
+    width: 300px;
+    height: 40px;
+    font-size: bold;
+    border: none;
+    background-color: rgb(119, 6, 134);
+    color: white;
+    border-radius: 4px;
+    margin-left: 5px;
+    margin-top: 7px;
+}
+.btnNew{
+    width: 300px;
+    height: 40px;
+    font-size: bold;
+    border: none;
+    background-color: rgb(178, 153, 180);
+    color: white;
+    border-radius: 4px;
+    margin-left: 5px;
+    margin-top: 12px;
+}
+input[type=text], [type=password] {
+    width: 300px;
+    height: 50px;
+    border: 1px solid #ccc;
+    margin: 5px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 15px;
+}
+input:hover {
+    border: 1px solid #333;
 }

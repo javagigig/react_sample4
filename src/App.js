@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Profile from './pages/Profile';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Login from './pages/Login';
+import Search from './pages/Search';
 
 
 
@@ -20,6 +21,7 @@ function App() {
             <Route path='/profile' element={<Profile/>} />
             <Route path='/login' element={<Login/>} />
             <Route path='/postAdd' element={<postAdd/>} />
+            <Route path='/search' element={<Search/>} />
           </Routes>
       </Router>
     </div>
