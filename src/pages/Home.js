@@ -1,3 +1,4 @@
+import React from 'react'
 import Menu from "../components/Menu";
 import { VscVerifiedFilled } from "react-icons/vsc";
 

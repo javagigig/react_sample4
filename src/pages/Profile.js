@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Post from '../components/Menu';
 import './Profile.css'; // 프로필 페이지 스타일 import
 import { VscVerifiedFilled } from "react-icons/vsc";
+import React from 'react'
 
 
 const Profile = () => {

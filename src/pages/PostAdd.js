@@ -1,6 +1,7 @@
 import './PostAdd.css';
+import React from 'react'
 
-function PostAdd(){
+const PostAdd = () =>{
     
 
     return <div>
